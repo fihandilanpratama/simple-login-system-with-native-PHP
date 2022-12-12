@@ -1,0 +1,14 @@
+body {
+   background-image: url("img/wallpaperflare.com_wallpaper.jpg");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}
+.card {
+   background: rgb(170,196,255);
+background: linear-gradient(144deg, rgba(170,196,255,1) 0%, rgba(255,255,255,1) 100%, rgba(0,0,0,1) 100%);
+   opacity: 0.9;
+}
+button {
+   background-color: #4168C5 !important;
+}

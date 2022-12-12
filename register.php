@@ -49,23 +49,14 @@ if (isset($_POST['signup'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>register</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-	<style>
-		body {
-			background-image: url("img/wallpaperflare.com_wallpaper.jpg");
-			background-repeat: no-repeat;
-			background-attachment: fixed;
-			background-size: cover;
-		}
-		.card {
-			opacity: 0.9;
-		}
-	</style>
+	 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+	 <link href="styles.css" rel="stylesheet"> 
 </head>
 <body>
 	<div class="container" style="margin-top: 45px;">
 		<div class="row justify-content-center">
-			<div class="col-4">
-				<div class="card shadow-lg py-3" style="border-radius: 23px;">
+			<div class="col-lg-4 col-md-7 col-sm-12">
+				<div class="card shadow-lg pt-3" style="border-radius: 23px;">
 					<div class="card-body">
 						<h2 class="text-center my-2 mb-4">SIGN UP</h2>
 						<form action="" method="post">
@@ -97,6 +88,9 @@ if (isset($_POST['signup'])) {
 							<div class="mt-5 text-center">
 								<p class="m-0 mt-5">Already have an account?</p>
 								<a class="text-primary text-decoration-none" href="login.php">LOGIN</a>
+								<small>
+									<p class="mt-5 mb-2">Copyright <i class="bi bi-c-circle"></i> 2022 by <a href="https://github.com/fihandilanpratama" class="text-decoration-none" target="_blank">@fihandilanpratama</a><br>All rights reserved</p>
+								</small>
 							</div>
 						</form>
 				</div>
